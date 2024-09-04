@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0af7dbb5f6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Portfolio.</a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="main_con">
+                <div class="me"><img src="images/front.jpg" alt=""></div>
+                <div class="header-text">
+                    <p>Hi, I'm Mohit Ranjan</p>
+                    <h1>I am a <div class="container1"><span class="kevin">Web Developer.</span></div>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------About----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Mohit Ranjan and I am from India. I am a graduate with Bachelor's degree in Computer
+                        Science and Enginering. I am currently learning web-development and also doing competitive
+                        programming. I love to play Valorant and watch anime.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Certificates</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web-development</span><br>Designing Websites.</li>
+                            <li><span>C/C++</span><br>For Competitive programming.</li>
+                            <li><span>Unity</span><br>For developing AR apps.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Introduction to Devops</span><br>Gained basic knowledge in DevOps techniques and
+                                collaboration between the development and operations teams.</li>
+                            <li><span>Introduction to Cloud-computing</span><br>Gained basic knowledge of cloud
+                                computing, including cloud service models and cloud deployment models.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.E. from Nitte Meenakshi Institute of technology</li>
+                            <li><span>2019</span><br>12th from Param Gyan Niketan Public School</li>
+                            <li><span>2017</span><br>10th from DAV Public School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------services---------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web designing</h2>
+                    <p> I create responsive, user-friendly websites tailored to your brand's unique needs. Whether
+                        you’re looking for a sleek business site, an engaging e-commerce platform, or a custom web
+                        application, I delivers high-quality solutions that drive results. From front-end design to
+                        back-end functionality, I ensure your site not only looks great but performs flawlessly. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX designing</h2>
+                    <p>I craft intuitive, visually appealing interfaces that not only captivate users but also enhance
+                        usability. My design process prioritizes user experience, ensuring that your website or
+                        application is both functional and enjoyable to navigate.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-unity"></i></i>
+                    <h2>Unity</h2>
+                    <p>I specialize in creating interactive and immersive experiences, from cutting-edge games to innovative virtual reality and augmented reality applications. I leverages Unity's powerful engine to deliver high-quality visuals, seamless performance, and cross-platform compatibility.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------portfolio------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Weather app.png">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>Stay informed and prepared with our intuitive Weather App. Designed with a sleek, user-friendly interface, this app provides real-time weather updates worldwide. </p>
+                        <a href="https://mohitk064.github.io/Weather_website/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Todo app.png">
+                    <div class="layer">
+                        <h3>To-do List App</h3>
+                        <p>Boost your productivity with our streamlined To-Do Web App. Designed to help you manage tasks efficiently, this app offers a clean and intuitive interface where you can easily create, organize, and prioritize your to-do lists. It's the perfect tool to keep your tasks in check, wherever you are.</p>
+                        <a href="https://mohitk064.github.io/To-do-List-App/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/hospital managemnet system.png">
+                    <div class="layer">
+                        <h3>Hospital Management System</h3>
+                        <p>Streamline healthcare operations with our comprehensive Hospital Management System. Designed to enhance efficiency and improve patient care, this system integrates all aspects of hospital management into a single, user-friendly platform. From patient registration and appointment scheduling to billing, inventory management.</p>
+                        <a href="https://github.com/mohitk064/Hospital-Managaement-System" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ------------------------contact--------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:mohitranjank064@gmail.com"
+                            class="mail">mohitranjank064@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i><a href="tel:9473396240" class="mail">9473396240</a></p>
+                    <div class="social-icons">
+                        <a href="https://wa.me/9473396240" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://github.com/mohitk064" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/mohit_ranjn/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mohitranjank064/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Resume_mohit (2).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Mohit. All rights reserved.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
